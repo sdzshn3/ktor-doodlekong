@@ -1,0 +1,8 @@
+Car
+Bike
+Mango
+Laptop
+Computer
+Monitor
+Mouse
+Keyboard

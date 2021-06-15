@@ -2,6 +2,7 @@ package com.sdzsn3
 
 import com.google.gson.Gson
 import com.sdzsn3.routes.createRoomRoute
+import com.sdzsn3.routes.gameWebSocketRoute
 import com.sdzsn3.routes.getRoomsRoute
 import com.sdzsn3.routes.joinRoomRoute
 import com.sdzsn3.session.DrawingSession
@@ -41,6 +42,7 @@ fun Application.module(testing: Boolean = false) {
         createRoomRoute()
         getRoomsRoute()
         joinRoomRoute()
+        gameWebSocketRoute()
     }
     install(ContentNegotiation) {
         gson {
